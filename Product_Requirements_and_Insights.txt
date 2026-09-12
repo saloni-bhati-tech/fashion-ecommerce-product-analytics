@@ -1,0 +1,351 @@
+FASHION E-COMMERCE PRODUCT ANALYTICS & CUSTOMER EXPERIENCE OPTIMIZATION
+
+1. PROJECT OVERVIEW
+
+This project analyzes a simulated fashion e-commerce customer journey from product search and discovery to purchase and returns.
+
+The objective is to identify customer drop-off points, understand purchasing behavior, identify potential product and checkout issues, and recommend data-driven product improvements.
+
+Tools Used:
+SQL | Excel | Power BI | Figma | Product Analytics
+
+Dataset:
+Simulated fashion e-commerce dataset containing customers, products, events, orders and returns.
+
+
+2. BUSINESS PROBLEM
+
+Fashion e-commerce platforms lose potential customers at different stages of the shopping journey.
+
+The key business questions addressed in this project are:
+
+• Where are customers dropping off in the purchase funnel?
+• Which device has better customer conversion?
+• Which product categories generate purchases?
+• What payment behavior may be affecting purchase completion?
+• What are the major reasons for product returns?
+• What product improvements could improve customer experience and conversion?
+
+
+3. CUSTOMER FUNNEL ANALYSIS
+
+Funnel Stages:
+
+Search → Product View → Add to Cart → Checkout → Payment → Purchase
+
+Results:
+
+Search: 20 users
+Product View: 20 users
+Add to Cart: 19 users
+Checkout: 17 users
+Payment: 15 users
+Purchase: 8 users
+
+Key Finding:
+
+The largest drop-off occurs between Payment and Purchase, where approximately 47% of users do not complete the purchase after reaching the payment stage.
+
+This indicates that checkout/payment experience should be investigated as the highest-priority product opportunity.
+
+
+4. CATEGORY ANALYSIS
+
+Product categories analyzed:
+
+Ethnic Wear
+Jeans
+Dresses
+Footwear
+T-Shirts
+Sarees
+Shirts
+Jackets
+
+Key Finding:
+
+Jeans, Dresses, Ethnic Wear and Sarees generated purchases in the simulated dataset, while T-Shirts and Jackets did not generate purchases despite receiving product interactions.
+
+This suggests that product discovery, pricing, merchandising or recommendation strategies could be explored for low-converting categories.
+
+
+5. DEVICE ANALYSIS
+
+Devices analyzed:
+
+Mobile
+Desktop
+
+Results:
+
+Mobile users: 14
+Mobile purchases: 6
+
+Desktop users: 6
+Desktop purchases: 2
+
+Key Finding:
+
+Mobile represents the majority of users and purchases in the dataset.
+
+Because mobile is the dominant customer platform, optimizing the mobile shopping and checkout experience should be a product priority.
+
+
+6. PAYMENT ANALYSIS
+
+Payment methods analyzed:
+
+UPI
+Credit Card
+COD
+
+Results:
+
+UPI: 7 orders, 5 completed
+Credit Card: 3 orders, 2 completed
+COD: 3 orders, 2 completed
+
+Key Finding:
+
+UPI is the most frequently used payment method in the simulated dataset.
+
+The payment-to-purchase drop-off indicates that payment completion and checkout usability should be investigated further.
+
+
+7. RETURNS ANALYSIS
+
+Return reasons:
+
+Size/Fit: 3
+Quality Issue: 2
+Color Different: 1
+
+Key Finding:
+
+Size/Fit is the largest return reason.
+
+Potential product opportunity:
+
+Improve size guides, fit recommendations and product information to help customers make more confident purchase decisions.
+
+
+8. ROOT-CAUSE ANALYSIS
+
+Problem 1: Payment → Purchase Drop-off
+
+Possible causes:
+• Payment failure
+• Poor checkout usability
+• Lack of payment feedback
+• Customer hesitation before final confirmation
+• Mobile checkout friction
+
+Recommended investigation:
+Analyze payment failure rates, checkout errors, loading time and abandonment behavior.
+
+
+Problem 2: Size/Fit Returns
+
+Possible causes:
+• Inaccurate size expectations
+• Limited size information
+• Lack of fit guidance
+
+Recommended solution:
+Introduce improved size charts and personalized size/fit recommendations.
+
+
+Problem 3: Low-Converting Categories
+
+Possible causes:
+• Weak product discovery
+• Pricing mismatch
+• Limited recommendations
+• Poor visibility
+
+Recommended solution:
+Improve recommendations, category merchandising and personalized discovery.
+
+
+9. PRODUCT IMPROVEMENT PRIORITIES
+
+Priority 1 — Improve Checkout & Payment Experience
+
+Impact: High
+Effort: Medium
+
+Goal:
+Reduce payment-to-purchase abandonment.
+
+Potential features:
+• Clear payment status
+• Better error messages
+• Faster checkout
+• Simplified payment flow
+
+
+Priority 2 — Improve Size & Fit Experience
+
+Impact: High
+Effort: Medium
+
+Goal:
+Reduce size-related returns.
+
+Potential features:
+• Size recommendation
+• Detailed size guide
+• Fit information
+• Customer measurement guidance
+
+
+Priority 3 — Improve Search & Product Discovery
+
+Impact: High
+Effort: Medium
+
+Goal:
+Increase product discovery and conversion.
+
+Potential features:
+• Trending searches
+• Recommended products
+• Personalized search
+• Category shortcuts
+
+
+10. USER STORIES
+
+User Story 1:
+
+As a shopper, I want to see relevant search suggestions so that I can discover products faster.
+
+Acceptance Criteria:
+• Search suggestions appear while typing.
+• Suggestions are relevant to customer searches.
+• Selecting a suggestion displays relevant products.
+
+
+User Story 2:
+
+As a shopper, I want a clear payment status so that I know whether my payment was successful.
+
+Acceptance Criteria:
+• Payment status is clearly displayed.
+• Failed payments provide an understandable error message.
+• Customers can retry payment easily.
+
+
+User Story 3:
+
+As a shopper, I want size recommendations so that I can select the correct size confidently.
+
+Acceptance Criteria:
+• Size guide is easily accessible.
+• Recommendation uses available customer information.
+• Recommended size is clearly highlighted.
+
+
+11. PRODUCT REQUIREMENTS
+
+Feature: Improved Search & Discovery
+
+Requirement 1:
+Provide a prominent search bar on the home screen.
+
+Requirement 2:
+Display trending searches.
+
+Requirement 3:
+Display recommended products based on customer behavior.
+
+Requirement 4:
+Provide category shortcuts.
+
+Requirement 5:
+Track search-to-product-view conversion.
+
+
+Feature: Improved Checkout
+
+Requirement 1:
+Display clear payment status.
+
+Requirement 2:
+Provide retry functionality after failed payment.
+
+Requirement 3:
+Reduce unnecessary checkout steps.
+
+Requirement 4:
+Track payment-to-purchase conversion.
+
+
+12. KPIs / SUCCESS METRICS
+
+Primary KPIs:
+
+• Search-to-View Conversion
+• View-to-Cart Conversion
+• Cart-to-Checkout Conversion
+• Checkout-to-Payment Conversion
+• Payment-to-Purchase Conversion
+• Overall Purchase Conversion
+• Return Rate
+• Size/Fit Return Rate
+
+Product success will be measured by improvement in conversion rates and reduction in customer abandonment and returns.
+
+
+13. FIGMA PROTOTYPE
+
+Designed a low-fidelity mobile search and discovery experience.
+
+Prototype elements:
+
+• "Find your style" heading
+• Search bar
+• Women / Men / Kids categories
+• Trending searches
+• Recommended products
+• Explore all products CTA
+• Product analytics KPI section
+
+The prototype focuses on improving product discovery and making the shopping journey more personalized.
+
+
+14. AGILE / SCRUM APPROACH
+
+Product development can be organized into short Agile sprints.
+
+Sprint 1:
+Analyze funnel and identify major customer problems.
+
+Sprint 2:
+Design improved search and discovery experience.
+
+Sprint 3:
+Design checkout and payment improvements.
+
+Sprint 4:
+Evaluate KPIs and iterate based on customer behavior.
+
+
+15. FINAL PRODUCT INSIGHTS
+
+The analysis identified three major opportunities:
+
+1. Payment-to-purchase abandonment is the largest funnel drop-off and should be investigated first.
+
+2. Size/Fit is the most common return reason, creating an opportunity for better size and fit guidance.
+
+3. Mobile is the dominant shopping platform, making mobile-first product optimization important.
+
+
+16. PROJECT OUTCOME
+
+This project demonstrates a product analytics workflow:
+
+Data → SQL Analysis → Excel Analysis → Power BI Dashboard → Root-Cause Analysis → Product Requirements → User Stories → Figma Prototype → KPI Definition
+
+The project combines quantitative analysis with product thinking to identify customer problems and translate them into actionable product improvements.

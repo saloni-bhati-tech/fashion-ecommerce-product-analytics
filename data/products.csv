@@ -1,0 +1,21 @@
+product_id,product_name,category,brand,price,discount,rating
+P001,Classic Cotton Kurti,Ethnic Wear,Libas,1299,20,4.3
+P002,Slim Fit Jeans,Jeans,Levis,2499,15,4.2
+P003,Floral Summer Dress,Dresses,H&M,1999,25,4.4
+P004,Running Sneakers,Footwear,Puma,3499,30,4.5
+P005,Regular Fit T-Shirt,T-Shirts,Roadster,799,10,4.1
+P006,Embroidered Saree,Sarees,Biba,2999,20,4.6
+P007,High Rise Jeans,Jeans,Levis,2799,20,4.3
+P008,Printed Anarkali,Ethnic Wear,Libas,2199,30,4.5
+P009,Casual Shirt,Shirts,Roadster,1199,15,4.0
+P010,Party Wear Dress,Dresses,H&M,2499,35,4.2
+P011,Leather Sneakers,Footwear,Puma,4299,25,4.4
+P012,Designer Saree,Sarees,Biba,3999,30,4.7
+P013,Oversized T-Shirt,T-Shirts,H&M,999,20,4.3
+P014,Denim Jacket,Jackets,Levis,2999,15,4.2
+P015,Office Wear Kurti,Ethnic Wear,Biba,1599,25,4.4
+P016,Women Running Shoes,Footwear,Puma,3299,20,4.5
+P017,Maxi Dress,Dresses,H&M,2299,30,4.1
+P018,Skinny Fit Jeans,Jeans,Levis,2599,10,4.0
+P019,Printed Cotton Saree,Sarees,Libas,1899,20,4.5
+P020,Formal Shirt,Shirts,Roadster,1399,15,4.2

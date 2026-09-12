@@ -1,0 +1,7 @@
+return_id,order_id,customer_id,product_id,return_date,return_reason
+R001,O002,C002,P002,2026-08-06,Size/Fit
+R002,O005,C006,P006,2026-08-07,Quality Issue
+R003,O009,C013,P007,2026-08-08,Size/Fit
+R004,O010,C015,P012,2026-08-09,Color Different
+R005,O011,C017,P019,2026-08-10,Quality Issue
+R006,O013,C019,P017,2026-08-10,Size/Fit
